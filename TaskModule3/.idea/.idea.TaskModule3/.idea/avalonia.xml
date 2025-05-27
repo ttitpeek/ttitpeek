@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="TaskModule3/App.axaml" value="TaskModule3/TaskModule3.csproj" />
+        <entry key="TaskModule3/MainWindow.axaml" value="TaskModule3/TaskModule3.csproj" />
+        <entry key="TaskModule3/Views/AuthWindow.axaml" value="TaskModule3/TaskModule3.csproj" />
+        <entry key="TaskModule3/Views/ReserPassword.axaml" value="TaskModule3/TaskModule3.csproj" />
+        <entry key="TaskModule3/Views/ResetPassword.axaml" value="TaskModule3/TaskModule3.csproj" />
+        <entry key="TaskModule3/Views/WorkWindowAdmin.axaml" value="TaskModule3/TaskModule3.csproj" />
+        <entry key="TaskModule3/Views/WorkWindowUser.axaml" value="TaskModule3/TaskModule3.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

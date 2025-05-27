@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="QualExam5.MainWindow"
+        Height="200" Width="600"
+        MinHeight="200" MinWidth="600"
+        Title="Валидация данных">
+        <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <TextBlock Grid.Row="0" Grid.Column="1" Name="GetFullName" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="1" Name="CheckFullName"
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                
+                <Button Grid.Row="0" Grid.Column="0" Width="290" Height="40" Content="Получить данные"
+                        VerticalAlignment="Center" HorizontalAlignment="Center"
+                        VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                        Click="GetUserData_OnClick"/>
+                <Button Grid.Row="1" Grid.Column="0" Width="290" Height="40" Content="Отправить результаты теста"
+                        VerticalAlignment="Center" HorizontalAlignment="Center"
+                        VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                        Click="CheckUserData_OnClick"/>
+        </Grid>
+</Window>
